@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('activeresource', ['>= 3'])
   s.add_dependency "jruby-openssl" if RUBY_PLATFORM == "java"
   s.add_development_dependency "minitest" , '~> 5.3'
-  s.add_development_dependency 'rake', '~> 13'
+  s.add_development_dependency 'rake', '>= 10.0'
   s.add_development_dependency 'byebug'
 
 
