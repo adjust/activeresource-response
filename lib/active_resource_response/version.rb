@@ -23,6 +23,6 @@
 
 module ActiveResourceResponse
   module Version
-    VERSION = "1.4.0"
+    VERSION = "1.5.0"
   end
 end
